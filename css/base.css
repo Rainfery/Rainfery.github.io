@@ -1,0 +1,193 @@
+body, ol, ul, li, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'plfont';
+    src: url('../fonts/PingFangSC-Light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'pmfont';
+    src: url('../fonts/PingFangSC-Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'prfont';
+    src: url('../fonts/PingFangSC-Regular.ttf') format("truetype");
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+li {
+    list-style: none;
+}
+
+iframe {
+    border: none;
+}
+
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    font: 400 1em/1.8 'pmfont', 'PingFang SC', 'Avenir', 'Segoe UI', 'Hiragino Sans GB', STHeiti, 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    height: 680px;
+    background: url("../images/banner1.jpg") no-repeat top center;
+}
+
+.inner {
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 92px;
+    height: 36px;
+    margin: 22px 0 0 20px;
+}
+
+.logo a {
+    display: block;
+    width: 92px;
+    height: 36px;
+    background: url("../images/logo.png") no-repeat;
+    text-indent: -999em;
+}
+
+.nav {
+    float: right;
+    margin: -32px 106px 0 0;
+}
+
+.nav li {
+    float: left;
+    margin: 0 27px;
+}
+
+.nav li a {
+    font: 16px "pmfont";
+    color: rgba(255, 255, 255, .7);
+}
+
+.nav li img {
+    display: inline-block;
+    margin: 9px 0 0 4px;
+}
+
+header .arrow {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 570px;
+}
+
+header .arr-l, header .arr-r {
+    border: 0;
+    outline: none;
+    width: 49px;
+    height: 3px;
+    margin: 0 8px;
+    background-color: #ffffff;
+}
+
+header .arrow .arr-r {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+footer .last {
+    position: relative;
+    height: 384px;
+    background: url("../images/last.jpg") no-repeat top center;
+}
+
+footer .contact {
+    height: 247px;
+    padding: 55px 0 0 125px;
+}
+
+.last .contact .phone {
+    float: left;
+    margin-right: 176px;
+}
+
+.last .phone h4 {
+    margin: -43px 0 0 48px;
+    font: 22px pmfont;
+    color: #fff;
+}
+
+.last .phone h5 {
+    margin-left: 50px;
+    font: 14px prfont;
+    color: #d2d2d2;
+}
+
+.last .phone li:nth-child(2) {
+    display: block;
+    margin: 20px 0 0 35px;
+}
+
+.last .phone li:last-child {
+    font: 12px prfont;
+    color: #cecece;
+    margin: 15px 0 5px 35px;
+}
+
+.last .cpp {
+    float: left;
+    margin-right: 130px;
+}
+
+.last .cpp a {
+    display: inline-block;
+    margin: 0 0 10px 3px;
+    font: 14px prfont;
+    color: #cecece;
+}
+
+.last .cpp li:first-child {
+    font-size: 16px;
+    margin-bottom: 42px;
+    color: #ffffff;
+}
+
+.last .copyright {
+    position: absolute;
+    left: 50%;
+    margin: 40px 0 0 -200px;
+    font: 14px prfont;
+    color: #7e8088;
+}
